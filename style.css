@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NEXON Lv2 Gothic Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'NEXON Lv1 Gothic OTF'!important; 
+}
+
+h1, h2, h3 {
+    font-family: 'NEXON Lv2 Gothic Bold'!important;
+}
+
+.div1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: linear-gradient(to right, #F09819, #FF512F);
+    color: white;
+}
+
+@media screen and (max-width:754px) {
+    .mobile {
+        font-size: 30px!important;
+    }    
+}
+@media screen and (max-width:340px) {
+    .mobile {
+        font-size: 25px!important;
+    }    
+}
+
+@media screen and (max-width:328px) {
+    h1 {
+        font-size: 35px!important;
+    }    
+}
+
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255, 0)!important;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 19px!important;
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+    padding-left: 25px!important;
+    padding-right: 25px!important;
+}
+
+.div2 {
+    background-color: #f2f2f2;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.div3 {
+    background-color: #f2f2f2;
+    color: black;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: #141414;
+}
