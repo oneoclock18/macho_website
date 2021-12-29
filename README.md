@@ -5,4 +5,4 @@
 ## 스크린샷
 * <a href="https://ibb.co/CzC5zkD">이미지 보기</a>
 ## 사용하기
-* <a href="https://seongpark.github.io/macho_website">사용하기</a>
+* <a href="https://seongpark.github.io/macho-bot-site">사용하기</a>
